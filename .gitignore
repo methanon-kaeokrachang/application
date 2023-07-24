@@ -1,0 +1,45 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore temporary files
+*.~*
+
+# Ignore environment-specific files
+env/
+venv/
+.vscode/
+
+# Ignore build and distribution directories
+build/
+dist/
+*.egg-info/
+
+# Ignore the virtual environment settings (change according to your virtual environment tool)
+# For virtualenv:
+virtualenv/
+# For pipenv:
+Pipfile
+Pipfile.lock
+
+# Ignore sensitive or personal information (customize based on your needs)
+*.log
+*.db
+*.sqlite3
+*.env
+
+# Ignore any editor-specific or IDE-specific files
+/.idea
+/.vscode
+*.sublime-*
+
+# Ignore compiled or binary files (if applicable to your project)
+*.dll
+*.so
+*.dylib
+
+# Ignore any files or directories you don't want to commit
+# For example:
+# my_secret_key.txt
